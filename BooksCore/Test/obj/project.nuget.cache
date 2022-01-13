@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/G/8LKnahkNz4pVvfwIG+1gukhRC2So83ti77pJMTV2OQglCVjFM9TgMAmb/rRrdEoMKxuhnR0D1Ng39UJN0w==",
+  "dgSpecHash": "QZE8Il0NaKXM7b2rbn22SQjRiJeyK1XU7afxzA2DITD0oma4wXOT4FmTmvb6mXbz4n9zoX+eIpJGQGeWV9qheg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Alan_\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -2033,11 +2033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\BooksCore\\ApiBooksCore.csproj",
+      "projectUniqueName": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\BooksCore\\ApiBooksCore.csproj",
       "projectName": "ApiBooksCore",
-      "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\BooksCore\\ApiBooksCore.csproj",
+      "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\BooksCore\\ApiBooksCore.csproj",
       "packagesPath": "C:\\Users\\Alan_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\BooksCore\\obj\\",
+      "outputPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\BooksCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2054,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj": {
-              "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj"
+            "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj": {
+              "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj"
             }
           }
         }

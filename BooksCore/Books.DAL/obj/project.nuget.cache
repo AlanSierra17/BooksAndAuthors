@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sIT6XFlihgoZBtsHGrvxpGahbqQJUv1G//+Xri9DdLN5TxO8B48BSpre2nuKr+JLKdtlQ8pSwYM4bKUCeseCXA==",
+  "dgSpecHash": "udOO/oaoC1J98SG06dOYWelF7Wv2RyG9jyu6CfXdaOV/PRGUycgstwKjWZZokacKrdbPtBjom21gwy5prT1jxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alan_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

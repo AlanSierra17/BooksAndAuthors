@@ -1,0 +1,21 @@
+USE [BooksAndAuthors]
+GO
+
+/****** Object:  Table [dbo].[Editorials]    Script Date: 13/01/2022 3:46:37 p. m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Editorials](
+	[IdEditorials] [int] IDENTITY(1,1) NOT NULL,
+	[EditorialName] [nvarchar](100) NOT NULL,
+ CONSTRAINT [PK_Editorials] PRIMARY KEY CLUSTERED 
+(
+	[IdEditorials] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

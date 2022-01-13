@@ -1,0 +1,12 @@
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\Authors.DAL.dll.config
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\Authors.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\Authors.DAL.pdb
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\obj\Debug\Authors.DAL.csproj.AssemblyReference.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\obj\Debug\Authors.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\obj\Debug\Authors.DAL.csproj.CopyComplete
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\obj\Debug\Authors.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.DAL\obj\Debug\Authors.DAL.pdb

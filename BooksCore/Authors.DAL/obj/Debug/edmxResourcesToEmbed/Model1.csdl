@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksAndAuthorsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="IdAuthors" />
+    </Key>
+    <Property Name="IdAuthors" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Nationality" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Nationalities" Relationship="Self.FK_Authors_Nationalities" FromRole="Authors" ToRole="Nationalities" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_Books_Authors" FromRole="Authors" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Books">
+    <Key>
+      <PropertyRef Name="IdBooks" />
+    </Key>
+    <Property Name="IdBooks" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="YearOfPublication" Type="Int16" Nullable="false" />
+    <Property Name="Editorial" Type="Int32" Nullable="false" />
+    <Property Name="Author" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Authors" Relationship="Self.FK_Books_Authors" FromRole="Books" ToRole="Authors" />
+    <NavigationProperty Name="Editorials" Relationship="Self.FK_Books_Editorials" FromRole="Books" ToRole="Editorials" />
+  </EntityType>
+  <EntityType Name="Editorials">
+    <Key>
+      <PropertyRef Name="IdEditorials" />
+    </Key>
+    <Property Name="IdEditorials" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EditorialName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_Books_Editorials" FromRole="Editorials" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Nationalities">
+    <Key>
+      <PropertyRef Name="IdNationalities" />
+    </Key>
+    <Property Name="IdNationalities" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nationality" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Authors" Relationship="Self.FK_Authors_Nationalities" FromRole="Nationalities" ToRole="Authors" />
+  </EntityType>
+  <Association Name="FK_Authors_Nationalities">
+    <End Role="Nationalities" Type="Self.Nationalities" Multiplicity="1" />
+    <End Role="Authors" Type="Self.Authors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nationalities">
+        <PropertyRef Name="IdNationalities" />
+      </Principal>
+      <Dependent Role="Authors">
+        <PropertyRef Name="Nationality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Books_Authors">
+    <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="IdAuthors" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="Author" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Books_Editorials">
+    <End Role="Editorials" Type="Self.Editorials" Multiplicity="1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Editorials">
+        <PropertyRef Name="IdEditorials" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="Editorial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BooksAndAuthorsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Authors" />
+    <EntitySet Name="Books" EntityType="Self.Books" />
+    <EntitySet Name="Editorials" EntityType="Self.Editorials" />
+    <EntitySet Name="Nationalities" EntityType="Self.Nationalities" />
+    <AssociationSet Name="FK_Authors_Nationalities" Association="Self.FK_Authors_Nationalities">
+      <End Role="Nationalities" EntitySet="Nationalities" />
+      <End Role="Authors" EntitySet="Authors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Books_Authors" Association="Self.FK_Books_Authors">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Books_Editorials" Association="Self.FK_Books_Editorials">
+      <End Role="Editorials" EntitySet="Editorials" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

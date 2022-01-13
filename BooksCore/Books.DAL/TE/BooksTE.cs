@@ -9,53 +9,67 @@ namespace Books.DAL.TE
 {
     public class BooksTE
     {
+        //CRUD Libros
 
         public List<Book> ReadAll()
         {
-            List<Book> res = new List<Book>();
+            List<Book> BookList = new List<Book>();
+            List<Author> authorList = new List<Author>();
 
             using (var context = new BooksAndAuthorsContext())
             {
                 try
                 {
-                    res = context.Books.ToList();
-                    foreach (Book Book in res)
+                    BookList = context.Books.ToList();
+                    authorList = context.Authors.ToList();
+                    foreach (Book Book in BookList)
                     {
                         context.Entry(Book).Reference(r => r.EditorialNavigation).Load();
                         context.Entry(Book).Reference(r => r.AuthorNavigation).Load();
+                        
+                        foreach (Author Author in authorList)
+                        {
+                            context.Entry(Author).Reference(r => r.NationalityNavigation).Load();
+                        }
 
                     }
 
-                    return res;
+                    return BookList;
 
                 }catch (Exception ex)
                 {
-                    throw new Exception("Se ha oresentado el siguiente error: " + ex.Message);
+                    throw new Exception("Se ha presentado el siguiente error: " + ex.Message);
                 }
                 
             }
 
         }
 
-        public Book ReadOne(int id)
+        public Book ReadOne(int IdBook)
         {
-            Book res = new Book();
+            Book Book = new Book();
+            Author Author = new Author();
+
 
             using (var context = new BooksAndAuthorsContext())
                 try
                 {
                     {
-                        res = context.Books.Where(p => p.IdBooks == id).FirstOrDefault();
+                        Book = context.Books.Where(b => b.IdBooks == IdBook).FirstOrDefault();
+                        Author = context.Authors.FirstOrDefault();
 
-                        if (res != null)
+                        if (Book != null)
                         {
-                            context.Entry(res).Reference(r => r.EditorialNavigation).Load();
-                            context.Entry(res).Reference(r => r.AuthorNavigation).Load();
+                            context.Entry(Book).Reference(r => r.EditorialNavigation).Load();
+                            context.Entry(Book).Reference(r => r.AuthorNavigation).Load();
+                            
+                            context.Entry(Author).Reference(r => r.NationalityNavigation).Load();
+                            
                         }
 
                     }
 
-                    return res;
+                    return Book;
 
                 }catch(Exception ex)
                 {
@@ -90,7 +104,7 @@ namespace Books.DAL.TE
                 try
                 {
                     {
-                        Book BookCtx = context.Books.Where(p => p.IdBooks == BookToEdit.IdBooks).FirstOrDefault();
+                        Book BookCtx = context.Books.Where(b => b.IdBooks == BookToEdit.IdBooks).FirstOrDefault();
 
                         BookCtx.BookName = BookToEdit.BookName;
                         BookCtx.YearOfPublication = BookToEdit.YearOfPublication;
@@ -115,7 +129,7 @@ namespace Books.DAL.TE
                 {
                     {
                         Book res = new Book();
-                        res = context.Books.Where(p => p.IdBooks == id).FirstOrDefault();
+                        res = context.Books.Where(b => b.IdBooks == id).FirstOrDefault();
                         context.Remove(res);
                         context.SaveChanges();
 

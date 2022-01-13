@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B6XGpSI89Fj5W+9CL/tz5kmHTzSlK6nfHETD6e1+9usn9wIJGU1hGhhuF2hlmJEUwheGucniALsEBAcVGoGK/w==",
+  "dgSpecHash": "zBrtQZ4H4JeySvF2Uj3So5QYvLQdn00w7ZqH9Uv7QqMTblQLzYCb/DndrK++sWUn6vjs6n4oNe6Z8pi8/sW3BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj",
+  "projectFilePath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.BL\\Books.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan_\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Alan_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

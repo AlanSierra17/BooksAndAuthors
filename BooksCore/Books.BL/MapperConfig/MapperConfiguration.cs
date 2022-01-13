@@ -14,9 +14,10 @@ namespace Books.BL.MapperConfig
             {
                 var config = new AutoMapper.MapperConfiguration(cfg =>
                 {
-                    cfg.CreateMap<DTO.BookDTO, DAL.Models.Book>()
-                       //.ForMember(dest => dest.Continente, opt => opt.Ignore());
-                       ;
+                    cfg.CreateMap<DTO.BookCreationAndEditDTO, DAL.Models.Book>()
+                       .ForMember(dest => dest.EditorialNavigation, opt => opt.Ignore())
+                       .ForMember(dest => dest.AuthorNavigation, opt => opt.Ignore());
+
                     cfg.CreateMap<DAL.Models.Book, DTO.BookDTO>();
 
                     cfg.CreateMap<DAL.Models.Author, DTO.AuthorDTO>();
@@ -28,6 +29,46 @@ namespace Books.BL.MapperConfig
                 return config.CreateMapper();
 
             }
+
+        }
+
+        public static AutoMapper.IMapper MapperNationalities
+        {
+            get
+            {
+                var config = new AutoMapper.MapperConfiguration(cfg =>
+                {
+                    cfg.CreateMap<DTO.NationalitiesCreateAndEdit, DAL.Models.Nationality>()
+                       .ForMember(dest => dest.Authors, opt => opt.Ignore());
+
+                    cfg.CreateMap<DAL.Models.Nationality, DTO.NationalityDTO>();
+
+
+                });
+
+                return config.CreateMapper();
+
+            }
+
+        }
+        public static AutoMapper.IMapper MapperEditorials
+        {
+            get
+            {
+                var config = new AutoMapper.MapperConfiguration(cfg =>
+                {
+                    cfg.CreateMap<DTO.EditorialCreateAndEditDTO, DAL.Models.Editorial>()
+                       .ForMember(dest => dest.Books, opt => opt.Ignore());
+
+                    cfg.CreateMap<DAL.Models.Editorial, DTO.EditorialDTO>();
+
+
+                });
+
+                return config.CreateMapper();
+
+            }
+
         }
     }
 }

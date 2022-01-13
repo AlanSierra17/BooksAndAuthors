@@ -25,7 +25,47 @@
       "ProjectGuid": "b1c64563-b145-4379-aee4-4dcecb37c460",
       "DisplayName": "Books.BL",
       "ColorIndex": 3
+    },
+    "093c30d5-44b8-4264-8663-3b1cc8ccf3cf": {
+      "ProjectGuid": "093c30d5-44b8-4264-8663-3b1cc8ccf3cf",
+      "DisplayName": "Authors.DAL",
+      "ColorIndex": 4
+    },
+    "08933c87-083d-49ee-b193-537a124131ce": {
+      "ProjectGuid": "08933c87-083d-49ee-b193-537a124131ce",
+      "DisplayName": "AuthorsNetFramework",
+      "ColorIndex": 5
+    },
+    "b6a9364b-f715-4f20-b870-cf181227083f": {
+      "ProjectGuid": "b6a9364b-f715-4f20-b870-cf181227083f",
+      "DisplayName": "Authors",
+      "ColorIndex": 6
+    },
+    "c6a2889c-41bb-415a-940a-66ea346e64b1": {
+      "ProjectGuid": "c6a2889c-41bb-415a-940a-66ea346e64b1",
+      "DisplayName": "AuthorsTE",
+      "ColorIndex": 7
+    },
+    "e5c60d6f-5d18-44aa-86b3-10d82dd04970": {
+      "ProjectGuid": "e5c60d6f-5d18-44aa-86b3-10d82dd04970",
+      "DisplayName": "Authors.DAL",
+      "ColorIndex": 8
+    },
+    "ec1cb129-0598-4585-9ea2-5f755a03e159": {
+      "ProjectGuid": "ec1cb129-0598-4585-9ea2-5f755a03e159",
+      "DisplayName": "Authors.BL",
+      "ColorIndex": 9
+    },
+    "6b81bdd0-4021-417c-a769-e24df1c139bd": {
+      "ProjectGuid": "6b81bdd0-4021-417c-a769-e24df1c139bd",
+      "DisplayName": "Authors.BL",
+      "ColorIndex": 10
+    },
+    "4b574f9a-8206-4bc2-83fc-b58a358e1670": {
+      "ProjectGuid": "4b574f9a-8206-4bc2-83fc-b58a358e1670",
+      "DisplayName": "API",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 12
 }

@@ -1,0 +1,14 @@
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\Authors.BL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\Authors.BL.pdb
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\Authors.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\AutoMapper.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\EntityFramework.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\Authors.DAL.pdb
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\Authors.DAL.dll.config
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\AutoMapper.xml
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\bin\Debug\EntityFramework.xml
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\obj\Debug\Authors.BL.csproj.AssemblyReference.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\obj\Debug\Authors.BL.csproj.CoreCompileInputs.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\obj\Debug\Authors.BL.csproj.CopyComplete
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\obj\Debug\Authors.BL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\Code\BooksAndAuthors\BooksCore\Authors.BL\obj\Debug\Authors.BL.pdb

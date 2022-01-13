@@ -1864,11 +1864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
       "projectName": "Books.DAL",
-      "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
+      "projectPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.DAL\\Books.DAL.csproj",
       "packagesPath": "C:\\Users\\Alan_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\BooksAndAuthors\\BooksCore\\Books.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Alan_\\OneDrive\\Escritorio\\Alan\\Code\\BooksAndAuthors\\BooksCore\\Books.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
