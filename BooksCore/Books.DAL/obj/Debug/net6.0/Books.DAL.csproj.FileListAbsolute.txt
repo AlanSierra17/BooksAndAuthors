@@ -1,0 +1,14 @@
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\bin\Debug\net6.0\Books.DAL.deps.json
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\bin\Debug\net6.0\Books.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\bin\Debug\net6.0\ref\Books.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\bin\Debug\net6.0\Books.DAL.pdb
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.csproj.AssemblyReference.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.AssemblyInfoInputs.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.AssemblyInfo.cs
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\ref\Books.DAL.dll
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.pdb
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\bin\Debug\net6.0\Books.DAL.runtimeconfig.json
+C:\Users\Alan_\OneDrive\Escritorio\Alan\BooksAndAuthors\BooksCore\Books.DAL\obj\Debug\net6.0\Books.DAL.genruntimeconfig.cache

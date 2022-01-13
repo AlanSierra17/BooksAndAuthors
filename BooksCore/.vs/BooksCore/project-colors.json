@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29033beb-1334-4f4f-9d79-e1e8e671b30c": {
+      "ProjectGuid": "29033beb-1334-4f4f-9d79-e1e8e671b30c",
+      "DisplayName": "ApiBooksCore",
+      "ColorIndex": 0
+    },
+    "5c96d0c8-40ab-4be7-8c31-e96a3242a839": {
+      "ProjectGuid": "5c96d0c8-40ab-4be7-8c31-e96a3242a839",
+      "DisplayName": "Books.DAL",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "a64adf0f-49ea-4387-8b86-c9bc4197cc41": {
+      "ProjectGuid": "a64adf0f-49ea-4387-8b86-c9bc4197cc41",
+      "DisplayName": "Test",
+      "ColorIndex": 2
+    },
+    "b1c64563-b145-4379-aee4-4dcecb37c460": {
+      "ProjectGuid": "b1c64563-b145-4379-aee4-4dcecb37c460",
+      "DisplayName": "Books.BL",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
